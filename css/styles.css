@@ -7545,6 +7545,28 @@ a:hover {
   color: #999999;
 }
 
+/* line 60, ../sass/_base.scss */
+.medium {
+  position: relative;
+  padding-left: 40px;
+}
+/* line 64, ../sass/_base.scss */
+.medium:hover:before {
+  opacity: 1;
+}
+/* line 68, ../sass/_base.scss */
+.medium:before {
+  height: 32px;
+  width: 32px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/images/medium-logo.png") no-repeat 0 0;
+  opacity: 0.7;
+}
+
 @media (min-width: 992px) {
   /* line 2, ../sass/_responsive.scss */
   .sidebar {
