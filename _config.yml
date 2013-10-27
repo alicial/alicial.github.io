@@ -1,0 +1,4 @@
+name: Alicia Liu
+markdown: redcarpet
+pygments: true
+exclude: [config.rb, aliciahome, LICENSE, README.md]
