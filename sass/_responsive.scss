@@ -1,0 +1,72 @@
+@media (max-width: $screen-lg) and (min-width: $screen-md) {
+  .sidebar {
+    position: fixed;
+    width: 213px;
+    border-bottom-style: none;
+    border-right: 5px solid $mint;
+    nav {
+      margin-right: -15px;
+      > ul > li {
+        float: none;
+        > a {
+          border-right: 5px solid transparent;
+          margin-right: -5px;
+          border-bottom: none;
+          margin-bottom: 0;
+          &:hover {
+            border-right-color: darken($mint, 20);
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $screen-md) {
+  .main {
+    > section {
+      padding: 25px;
+    }
+  }
+  .embed-responsive.embed-responsive-max {
+    position: static;
+    width: 600px;
+    height: 450px;
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object {
+      position: static;
+    }
+    &.embed-responsive-16by9 {
+      padding-bottom: 0;
+    }
+    &.embed-responsive-4by3 {
+      padding-bottom: 0;
+    }
+  }
+}
+@media (min-width: $screen-lg) {
+  .sidebar {
+    nav {
+      > ul > li {
+        > a {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .sidebar {
+    nav {
+      > ul > li {
+        float: none;
+        > a {
+          border-bottom: none;
+          margin-bottom: 0;
+          height: auto;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
