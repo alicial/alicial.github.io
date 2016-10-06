@@ -1,26 +1,3 @@
-@media (max-width: $screen-lg) and (min-width: $screen-md) {
-  .sidebar {
-    position: fixed;
-    width: 213px;
-    border-bottom-style: none;
-    border-right: 5px solid $mint;
-    nav {
-      margin-right: -15px;
-      > ul > li {
-        float: none;
-        > a {
-          border-right: 5px solid transparent;
-          margin-right: -5px;
-          border-bottom: none;
-          margin-bottom: 0;
-          &:hover {
-            border-right-color: darken($mint, 20);
-          }
-        }
-      }
-    }
-  }
-}
 @media (min-width: $screen-md) {
   .main {
     > section {
